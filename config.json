@@ -1,0 +1,20 @@
+{
+    "Internal": {
+        "File_Name_Prefix": "name_",
+        "Timestamp_Format": "%d%m%Y%H%M",
+        "Backup_Keep_Limit": 3,
+        "Retry_On_Operation_Failed_Attempts": 3,
+        "Delay_Between_Each_Retry_In_Seconds": 5
+    },
+    
+    "External": {
+        "Discord_Webhook": "",
+        "Message_On_Succeed": "[Example Company] Data has been backup.",
+        "Message_On_Failed": "[Example Company] Failed to backup data."
+    },
+
+    "Task": {
+        "Source_Folder": "C:\\example_path\\example_folder",
+        "Destination_Base": "C:\\test"
+    }
+}
